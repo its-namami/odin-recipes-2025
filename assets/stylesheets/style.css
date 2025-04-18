@@ -1,0 +1,71 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid silver;
+}
+
+nav a{
+  min-width: 5rem;
+  text-align: center;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: 1px solid silver;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+article h1 {
+  font-size: 3rem;
+}
+
+article * {
+  max-width: 72ch;
+}
+
+article ol li {
+  margin-bottom: 1ch;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+article img + * {
+  font-size: 2rem;
+  font-weight: 100;
+  position: relative;
+  text-align: right;
+}
+
+article img + *::before {
+  content: '';
+  height: 100%;
+  width: .5rem;
+  background: black;
+  display: flex;
+  left: -1.5rem;
+  position: absolute;
+  top: 0;
+}
+
+article img + *::after {
+  content: '';
+  height: 100%;
+  width: .5rem;
+  background: black;
+  display: flex;
+  right: -1.5rem;
+  position: absolute;
+  top: 0;
+}
+
