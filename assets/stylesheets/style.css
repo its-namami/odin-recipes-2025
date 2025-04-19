@@ -1,3 +1,7 @@
+body {
+  background: #fcfcf5;
+}
+
 nav {
   display: flex;
   gap: 1rem;
@@ -72,5 +76,4 @@ article img + *::after {
   position: absolute;
   top: 0;
 }
-
 
