@@ -31,7 +31,11 @@ article * {
   max-width: 72ch;
 }
 
-article ol li {
+article section li {
+  margin-bottom: .5ch;
+}
+
+article section ol li {
   margin-bottom: 1ch;
 }
 
@@ -68,4 +72,5 @@ article img + *::after {
   position: absolute;
   top: 0;
 }
+
 
