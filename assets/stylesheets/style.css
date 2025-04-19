@@ -48,7 +48,7 @@ article img + * {
   font-size: 2rem;
   font-weight: 100;
   position: relative;
-  text-align: right;
+  text-align: center;
 }
 
 article img + *::before {
