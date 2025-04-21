@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Custom Font';
+  src: url(../fonts/UnifrakturMaguntia-Regular.ttf);
+}
+
+html {
+  font-family: monospace;
+}
 body {
   background: #fcfcf5;
 }
@@ -28,6 +36,7 @@ nav a:hover {
 }
 
 article h1 {
+  font-family: 'Custom Font';
   font-size: 3rem;
 }
 
@@ -49,6 +58,7 @@ article img {
 }
 
 article img + * {
+  font-family: serif;
   font-size: 2rem;
   font-weight: 100;
   position: relative;
